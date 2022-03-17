@@ -1,0 +1,75 @@
+스프링부트 with JPA 블로그 만들기
+
+1) 환경 셋팅
+   ① Oracle JDK 1.8 설치
+   https://www.oracle.com/java/technologies/javase/javase-jdk8-downloads.html
+   
+   ② MySQL 5.7 설치
+   https://dev.mysql.com/downloads/windows/installer/5.7.html
+   
+   ③ FONT 설치
+   https://www.cookierunfont.com/#section7
+   
+   ④ STS 툴 설치
+   https://spring.io/tools
+   
+   ⑤ IntelliJ - 키맵 셋팅
+   Eclipse Marketplace - IntelliJ IDEA keymap for Eclipse 0.1
+   
+   ⑥ UTF-8 셋팅
+   
+   ⑨ FONT 셋팅
+   
+2) 의존성 설치
+   ① SpringBoot DevTools : 재시작 시, classpath를 자동으로 바꿔줌
+   https://docs.spring.io/spring-boot/docs/1.5.16.RELEASE/reference/html/using-boot-devtools.html
+   
+   ② Lombok : getter, setter, toString 등 메서드 작성 코드를 줄여주는 코드 다이어트 라이브러리
+   https://projectlombok.org/
+   
+   ③ Spring Data JPA : DB 접근 시, JPA 활용
+      ※ JPA(Java Persistence API)
+          - 자바 ORM기술표준으로, 인터페이스의 모음(Hibernate, EclipseLink, DataNucleus 등)
+          - 어플리케이션과 JDBC사이에 동작
+          - SQL중심적인 개발에서 객체 중심으로 개발 전환
+          - 간단한 CRUD
+          - 필드 변경 시, 필드만 추가하면 SQL은 JPA가 처리
+   
+   ④ MySQL Driver
+   
+   ⑤ Spring Security
+   
+   ⑥ OAuth2 Client - 셋팅안함.
+     - 직접 카카오 로그인 구현
+     - JWT는 APP과 연동할 때 사용 예정
+     
+   ⑦ 템플릿 엔진
+     - jsp 사용 예정
+     
+   ⑧ Spring Web
+     - WEB MVC를 사용하여 웹 애플리케이션을 만드는데 필요한 스프링부트의 기본적인 요소를 가짐
+     - 내장형 컨테이너로 톰캣 기본탑재
+     
+   ⑨ 기타
+     - https://mvnrepository.com/
+     
+      <!-- 시큐리티 태그 라이브러리 -->
+      <dependency>
+        <groupId>org.springframework.security</groupId>
+        <artifactId>spring-security-taglibs</artifactId>
+      </dependency>
+
+      <!-- JSP 템플릿 엔진 -->
+      <dependency>
+        <groupId>org.apache.tomcat.embed</groupId>
+        <artifactId>tomcat-embed-jasper</artifactId>
+      </dependency>
+
+      <!-- JSTL -->
+      <dependency>
+        <groupId>javax.servlet</groupId>
+        <artifactId>jstl</artifactId>
+      </dependency>
+   
+
+출처 : https://getinthere.tistory.com/
