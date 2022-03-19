@@ -24,7 +24,7 @@
    ⑨ FONT 셋팅
    메뉴 -> Window -> Preferences -> font검색 -> Colors and Font -> Basic -> Text Font에서 설정
    
-2) 의존성 설치
+2) 의존성 설정
    ① SpringBoot DevTools : 재시작 시, classpath를 자동으로 바꿔줌
    https://docs.spring.io/spring-boot/docs/1.5.16.RELEASE/reference/html/using-boot-devtools.html
    
