@@ -14,11 +14,15 @@
    https://spring.io/tools
    
    ⑤ IntelliJ - 키맵 셋팅
+   메뉴 -> help -> Eclipse Marketplace -> intellij 검색 후 keymap 인스톨
+   메뉴 -> window -> Proferences -> key 검색 -> keys -> scheme를 intellij IDEA로 변경
    Eclipse Marketplace - IntelliJ IDEA keymap for Eclipse 0.1
    
    ⑥ UTF-8 셋팅
+   메뉴 -> Window -> Preferences -> enc검색 -> Workspace/CSS/HTML/JSP 모두 UTF-8로 설정
    
    ⑨ FONT 셋팅
+   메뉴 -> Window -> Preferences -> font검색 -> Colors and Font -> Basic -> Text Font에서 설정
    
 2) 의존성 설치
    ① SpringBoot DevTools : 재시작 시, classpath를 자동으로 바꿔줌
